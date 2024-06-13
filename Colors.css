@@ -1,0 +1,58 @@
+.circle{
+    border: 0px solid red;
+    width: 500px;
+    height: 500px;
+    margin: 100px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right,rgb(205, 67, 166),purple,blue,blue,black);
+    opacity: 0.7;
+    box-shadow: 30px 20px 50px;
+}
+body{
+    /* z-index: 1; */
+    background-image: linear-gradient(to right,rgb(205, 67, 166), black);
+}
+#come{
+    position: relative;
+    /* z-index: 2; */
+    margin: 100px;
+    /* border: 2px solid red; */
+    height: 65px;
+    font-size: 35px;
+}
+
+#time{
+    position: relative;
+    align-items: center;
+    /* z-index: 2; */
+    margin: 100px;
+    /* border: 2px solid red; */
+    height: 65px;
+    font-size: 55px;
+}
+#date{
+    font-size: 30px;
+}
+div{
+    /* color: white; */
+}
+
+#time {
+    position: relative;
+    align-items: center;
+    /* z-index: 2; */
+    /* margin: 100px; */
+    /* border: 2px solid red; */
+    height: 100px;
+    font-size: 145px;
+    width: 800px;
+    margin-left: -146px;
+    top: -115px;
+}
+
+#date{
+    font-size: 40px;
+    word-spacing: 112px;
+    position: relative;
+    top: -151px;
+}

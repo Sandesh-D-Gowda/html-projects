@@ -1,0 +1,217 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+
+/* circle style starts here */
+.a {
+    height: 1000px;
+    width: 1000px;
+    border: 1px solid white;
+    margin: 50px;
+    border-radius: 50%;
+    animation: rotate 9s linear infinite;
+    
+}
+
+.b {
+    height: 900px;
+    width: 900px;
+    border: 1px solid white;
+    margin: 50px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    animation: rotate 10s linear infinite;
+}
+
+.c {
+    height: 800px;
+    width: 800px;
+    border: 1px solid white;
+    margin: 50px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    animation: rotate 11s linear infinite;
+}
+
+.d {
+    
+    height: 700px;
+    width: 700px;
+    border: 1px solid white;
+    margin: 50px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    animation: rotate 12s linear infinite;
+}
+
+.e {
+    
+    height: 600px;
+    width: 600px;
+    border: 1px solid white;
+    margin: 50px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    animation: rotate 13s linear infinite;
+}
+
+.f {
+    
+    height: 500px;
+    width: 500px;
+    border: 1px solid white;
+    margin: 50px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    animation: rotate 14s linear infinite;
+}
+
+.g {
+    height: 400px;
+    width: 400px;
+    border: 1px solid white;
+    margin: 50px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    animation: rotate 15s linear infinite;
+}
+
+.h {
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    margin: 50px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    animation: rotate 25s linear infinite;
+}
+
+.i {
+    height: 200px;
+    width: 200px;
+    border: 1px solid white;
+    margin: 50px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    background-image: linear-gradient(to top right, yellow, orange,rgb(219, 45, 45),rgb(231, 155, 15));
+    animation: rotate 2s linear infinite;
+}
+
+.h1 {
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    border: 2px solid goldenrod;
+    border-radius: 50%;
+    position: relative;
+    bottom: 22px;
+    display: flex;
+    animation: rotate 5s linear infinite;
+   
+}
+
+.g1 {
+    background-color:brown;
+    height: 50px;
+    width: 50px;
+    border: 2px solid goldenrod;
+    border-radius: 50%;
+    position: relative;
+    bottom: 22px;
+    animation: rotate 5s linear infinite;
+   
+} 
+
+.f1 {
+    background-color:mediumorchid;
+    height: 50px;
+    width: 50px;
+    border: 1px solid goldenrod;
+    border-radius: 50%;
+    position: relative;
+    bottom: 22px;
+    animation: rotate 5s linear infinite;
+}
+
+.e1 {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    border: 1px solid goldenrod;
+    border-radius: 50%;
+    position: relative;
+    bottom: 22px;
+    animation: rotate 5s linear infinite;
+}
+
+.d1 {
+    background-color: greenyellow;
+    height: 50px;
+    width: 50px;
+    border: 1px solid goldenrod;
+    border-radius: 50%;
+    position: relative;
+    bottom: 22px;
+    animation: rotate 5s linear infinite;
+}
+
+.c1 {
+    background-color: rgb(192, 74, 192);
+    height: 50px;
+    width: 50px;
+    border: 1px solid goldenrod;
+    border-radius: 50%;
+    position: relative;
+    bottom: 22px;
+    animation: rotate 5s linear infinite;
+}
+
+.b1 {
+    background-color: yellow ;
+    height: 50px;
+    width: 50px;
+    border: 1px solid goldenrod;
+    border-radius: 50%;
+    position: relative;
+    bottom: 22px;
+    animation: rotate 5s linear infinite;
+}
+
+.a1 {
+    background-color: rgb(219, 47, 104);
+    height: 50px;
+    width: 50px;
+    border: 1px solid goldenrod;
+    border-radius: 50%;
+    position: relative;
+    bottom: 22px;
+    animation: rotate 5s linear infinite;
+}
+
+
+
+
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    } 
+    100% {
+        transform:  rotate(360deg);
+    }
+}

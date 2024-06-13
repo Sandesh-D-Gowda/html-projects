@@ -1,0 +1,101 @@
+section{
+    height: 100vh;
+    width: 100%;
+    background-image: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top left,orange, rgb(203, 68, 68),rgb(41, 41, 228));
+
+}
+.login{
+    margin-left: 450px;
+    height: 500px;
+    width: 430px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+    background-color:white;
+    border: none; 
+}
+#insta{
+    margin-top: 60px;
+    font-size: 3.2rem;
+    font-style:italic;
+    font-family:serif;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.place{
+    width: 290px;
+    height: 30px;
+    padding: 5px;
+
+
+}
+.btn{
+    width: 300px;
+    height: 45px;
+    margin-top: 21px;
+    background-color:rgb(82, 170, 237);
+    border-radius: 15px;
+    border: none;
+}
+#lg{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+hr{
+    width: 135px;
+}
+.or{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+
+}
+.lwf{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+.icon{
+    gap:50px;
+    color:rgb(76, 76, 212);
+    font-size: 1.1rem;
+}
+#forgot{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    color:rgb(76, 76, 212); 
+}
+.out
+
+{  
+     position: relative;
+    width: 430px;
+    height: 60px;
+    top: 220px;
+    right: 430px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+span{
+    margin-top: 18px;
+}
+#s{
+    color: rgb(76, 76, 212);
+}
